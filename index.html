@@ -1,26 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Tunnl: Subway Map & Times</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tunnl — NYC Subway Tracker | Privacy Policy & Support</title>
+  <meta name="description" content="Tunnl is a fast, private NYC subway tracker with real-time MTA arrivals and live train positions for all 496 stations. No ads, no login, just 7MB.">
+  <meta name="keywords" content="NYC subway app, MTA tracker, real-time train arrivals, subway map, New York transit, live train positions">
+  <meta property="og:title" content="Tunnl — NYC Subway Tracker">
+  <meta property="og:description" content="Real-time MTA subway arrivals and live train tracking for all 496 NYC stations. Free, private, 7MB.">
+  <meta property="og:type" content="website">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', system-ui, sans-serif;
+      line-height: 1.6;
+      color: #1d1d1f;
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      background: #fafafa;
+    }
+    h1 { font-size: 2em; margin-bottom: 8px; }
+    h2 { font-size: 1.3em; margin-top: 32px; margin-bottom: 12px; color: #333; }
+    p { margin-bottom: 12px; color: #444; }
+    a { color: #0066cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .tagline { font-size: 1.1em; color: #666; margin-bottom: 24px; }
+    .badge { display: inline-block; margin-top: 16px; }
+    .badge img { height: 40px; }
+    .features { list-style: none; padding: 0; }
+    .features li { padding: 6px 0; padding-left: 24px; position: relative; }
+    .features li::before { content: "\2713"; position: absolute; left: 0; color: #34c759; font-weight: bold; }
+    .footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #e0e0e0; color: #888; font-size: 0.9em; }
+  </style>
 </head>
 <body>
 
-<h1>Tunnl: Subway Map & Times</h1>
-<p>Real-time NYC subway map and train arrival times.</p>
+<h1>Tunnl</h1>
+<p class="tagline">NYC Subway Tracker — Real-Time MTA Map & Train Times</p>
 
-<h2>Privacy Policy</h2>
-<p>Tunnl does not require login, does not collect personal data, and does not sell user data.</p>
-<p>If location services are enabled, location is used only on-device to improve map functionality and is not stored or transmitted.</p>
-<p>No payments are processed within the app.</p>
-
-<h2>Support</h2>
-<p>For questions, issues, or feedback, contact us at <a href="mailto:info@nexvale.com">info@nexvale.com</a>.</p>
+<p class="badge">
+  <a href="https://apps.apple.com/us/app/tunnl-subway-map-times/id6758211586">
+    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
+  </a>
+</p>
 
 <h2>About</h2>
-<p>Tunnl provides real-time subway arrival times and an interactive map for all 496 NYC MTA stations. Track trains, plan routes, and navigate the subway system with ease.</p>
+<p>Tunnl shows you exactly when your train is coming. Open the app, tap a station, see real-time arrivals. No clutter, no ads, no account required.</p>
+<ul class="features">
+  <li>Real-time arrivals for all 496 NYC subway stations</li>
+  <li>Live train positions moving across an interactive map</li>
+  <li>Filter by line to see only your commute</li>
+  <li>Just 7MB — smaller than a single photo</li>
+  <li>No login, no ads, no data collection</li>
+  <li>Works on iPhone, Apple Silicon Mac, and Vision Pro</li>
+</ul>
 
-<p>&copy; 2026 Tunnl</p>
+<h2>Privacy Policy</h2>
+<p><strong>Tunnl does not collect, store, or transmit any personal data.</strong></p>
+<p>Specifically:</p>
+<ul class="features">
+  <li>No account or login required</li>
+  <li>No analytics or tracking SDKs</li>
+  <li>No advertising frameworks</li>
+  <li>No data shared with third parties</li>
+  <li>Location (if enabled) is processed entirely on-device to show your position on the map and find nearby stations — it is never transmitted to any server</li>
+</ul>
+<p>The only network requests Tunnl makes are to the MTA's public GTFS real-time feeds to retrieve current train positions and arrival times.</p>
+
+<h2>Support</h2>
+<p>Questions, bugs, or feature requests? Reach out anytime:</p>
+<p><a href="mailto:info@nexvale.com">info@nexvale.com</a></p>
+
+<div class="footer">
+  <p>&copy; 2026 Tunnl. Built in New York City.</p>
+</div>
 
 </body>
 </html>
